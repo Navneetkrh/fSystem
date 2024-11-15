@@ -37,8 +37,8 @@ class FileSystem:
         if not self.disk.mounted:
             print("Disk is not mounted.")
             return None
-
-        # Find inode number by filename (simplified, assuming filename is inode number)
+ 
+        # Find inode number by filename (simplified, assuming filename is inode number) ggh
         try:
             inode_number = int(filename)
             inode = self.disk.inode_table[inode_number]
@@ -81,7 +81,7 @@ class FileSystem:
         if not block_number:
             return False
 
-        # Write data to block
+        # Write data
         block_offset = self.calculate_block_offset(block_number)
         self.disk.disk.seek(block_offset)
         self.disk.disk.write(data.encode('utf-8').ljust(BLOCK_SIZE, b'\x00'))
