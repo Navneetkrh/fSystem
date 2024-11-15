@@ -1,2 +1,4 @@
 virtual_disk.vdsk
 __pycache__/
+build
+dist
