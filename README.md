@@ -1,4 +1,3 @@
-
 # Virtual File System Using Inode Data Structure
 
 This project implements a virtual file system in Python using an inode data structure, emulating disk operations within a single file.
@@ -28,10 +27,9 @@ virtual_file_system/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/virtual_file_system.git
-   cd virtual_file_system
+   git clone https://github.com/Navneetkrh/fSystem.git
+   cd fSystem
    ```
-
 2. **Run the Program**
 
    ```bash
@@ -61,7 +59,6 @@ virtual_file_system/
    Enter command: create_disk
    Disk created successfully.
    ```
-
 2. **Mount the Disk**
 
    ```plaintext
@@ -70,7 +67,6 @@ virtual_file_system/
    Enter password:
    Disk mounted successfully.
    ```
-
 3. **Create a File**
 
    ```plaintext
@@ -78,7 +74,6 @@ virtual_file_system/
    Enter filename (use numbers for simplicity): 1
    File '1' created with inode 1.
    ```
-
 4. **Open the File**
 
    ```plaintext
@@ -88,7 +83,6 @@ virtual_file_system/
    File '1' opened with file descriptor 0.
    File descriptor: 0
    ```
-
 5. **Write to the File**
 
    ```plaintext
@@ -97,7 +91,6 @@ virtual_file_system/
    Enter data to write: Hello, World!
    Wrote data to file descriptor 0.
    ```
-
 6. **Read from the File**
 
    ```plaintext
@@ -107,7 +100,6 @@ virtual_file_system/
    Data read:
    Hello, World!
    ```
-
 7. **Close the File**
 
    ```plaintext
@@ -115,7 +107,6 @@ virtual_file_system/
    Enter file descriptor: 0
    File descriptor 0 closed.
    ```
-
 8. **Delete the File**
 
    ```plaintext
@@ -123,14 +114,12 @@ virtual_file_system/
    Enter filename (inode number): 1
    File '1' deleted.
    ```
-
 9. **Unmount the Disk**
 
    ```plaintext
    Enter command: unmount_disk
    Disk unmounted successfully.
    ```
-
 10. **Exit the Program**
 
     ```plaintext
